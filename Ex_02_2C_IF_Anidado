@@ -1,0 +1,19 @@
+print("Programa Promediar 3 notas")
+num1 = float()
+num2 = float()
+num3 = float()
+prom = float()
+num1 = float(input("Ingrese la primera nota: "))
+num2 = float(input("Ingrese la segunda nota: "))
+num3 = float(input("Ingrese la tercera nota: "))
+prom = (num1 + num2 + num3)/3
+
+print("El resultado es: ", prom)
+
+if prom > 54:
+    print("Eximido")
+else:    
+    if prom > 39:
+        print("Aprobado")
+    else:
+        print("Reprobado")

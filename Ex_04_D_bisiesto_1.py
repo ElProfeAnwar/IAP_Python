@@ -6,7 +6,9 @@ else:
     if (anio %100==0) and (anio %400!=0):
         print("No bis: Mult. de 100 pero no de 400")
     elif (anio %100==0) and (anio %400==0):
-        print("Bis: Mult. de 100 y de 400")  
+        print("Bis: Mult. de 100 y de 400") 
+    else :
+        print("Es bisiesto")
         
         
         
@@ -16,9 +18,3 @@ else:
     
     
     
-    
-        
-        """
-    elif (anio %4==0) and (anio %100!=0):
-        print("Bis: no Mult. de 100")
-    """
